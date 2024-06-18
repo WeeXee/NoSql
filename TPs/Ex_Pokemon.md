@@ -31,7 +31,7 @@ Objectif : Mettre à jour les informations d'un Pokémon.
 Instructions
 Mettez à jour les points de combat (CP) de "Pikachu" pour qu'ils soient de 900.
 
-![img](/images/pikachu.png)
+![img](/TPs/images/pikachu.png)
 
 ### Exercice 5: Suppression d'Éléments
 Objectif : Supprimer un Pokémon de la base de données.
@@ -39,7 +39,7 @@ Objectif : Supprimer un Pokémon de la base de données.
 Instructions
 Supprimez le Pokémon "Bulbasaur" de la collection Pokemons.
 
-![img](/images/Bulbasaur.png)
+![img](/TPs/images/Bulbasaur.png)
 
 
 
