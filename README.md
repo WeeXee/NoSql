@@ -7,3 +7,5 @@ Ici vous trouverez tous les liens vers les exercices du module:
 
 [Exercice Titanic](/TPs/Ex_Titanic.md)
 
+[Exercice Mongosh](/TPs/Ex_Mongosh.md)
+
