@@ -9,5 +9,5 @@ Ici vous trouverez tous les liens vers les exercices du module:
 
 [Exercice Mongosh](/TPs/Ex_Mongosh.md)
 
-[Exercice Otionnels](/TPs/Ex_optionnal.md)
+[Exercice Optionnels](/TPs/Ex_optionnal.md)
 
