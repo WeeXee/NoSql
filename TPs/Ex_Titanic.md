@@ -23,11 +23,14 @@ Instructions
 ![img](/TPs/images/Titanic/Nb_passagers.png)
 
 * Trouvez combien de passagers ont survécu.
+
+![img](/TPs/images/Titanic/survived.png)
+
 * Trouvez le nombre de passagers femmes.
+
+![img](/TPs/images/Titanic/female.png
+)
 * Trouvez le nombre de passagers avec au moins 3 enfants.
 
+![img](/TPs/images/Titanic/enfants.png)
 
-```markdown
-{"Type 1" : "Fire"}
-{Name : "Pikachu"}
-```
