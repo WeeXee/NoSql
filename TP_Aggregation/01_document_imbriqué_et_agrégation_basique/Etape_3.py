@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-import random
+
 
 # Connexion à la base de données et à la collection
 
