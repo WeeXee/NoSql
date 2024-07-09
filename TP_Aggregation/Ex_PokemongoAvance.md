@@ -9,6 +9,33 @@ Cet exercice propose une série de tâches pour explorer les fonctionnalités av
 - Mettez à jour chaque Pokémon avec ces nouvelles statistiques sous un objet stats.
 
 J'ai donc installé python, puis pip, pour ensuite écrire des scripts pour les exercices suivants.
-[Script statistiques](/TP_Aggregation/pokemon1.py)
+
+[Script python](/TP_Aggregation/Etape_2.py)
+
+- Enrichir chaque document Pokémon avec des statistiques d'attaque et de défense générées aléatoirement.
 
 ![img](/TP_Aggregation/images/1.png)
+
+## Étape 2: Agrégation des Statistiques HP et CP
+
+[Script python](/TP_Aggregation/Etape_2.py)
+
+- Calculez la moyenne des HP et des CP pour l'ensemble des Pokémon.
+
+![img](/TP_Aggregation/images/2.png)
+
+- Calculez la moyenne des HP et des CP par type.
+
+![img](/TP_Aggregation/images/3.png)
+
+- Déterminez le Pokémon ayant le HP et le CP les plus élevés.
+
+![img](/TP_Aggregation/images/4.png)
+
+## Étape 3: Lecture de Données sur les Documents
+
+- Identifiez tous les Pokémons avec plus de 50 d'attaques.
+
+[Script python](/TP_Aggregation/Etape_3.py)
+
+![img](/TP_Aggregation/images/5.png)
