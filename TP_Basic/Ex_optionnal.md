@@ -2,12 +2,12 @@
 
 ## Partie 1: Préparation
 
-![img](/TPs/images/Optionnal/1.png)
+![img](/TP_Basic/images/Optionnal/1.png)
 
 ## Partie 2: Insertion de Données
 Création d'une nouvelle classe
 
-![img](/TPs/images/Optionnal/6.png)
+![img](/TP_Basic/images/Optionnal/6.png)
 
 ## Partie 3: Requêtes sur Documents Imbriqués
 
@@ -19,7 +19,7 @@ db.classes.aggregate([
 ]);
 ```
 
-![img](/TPs/images/Optionnal/7.png)
+![img](/TP_Basic/images/Optionnal/7.png)
 
 ```mongo
 db.classes.updateOne(
@@ -29,7 +29,7 @@ db.classes.updateOne(
 
 ```
 
-![img](/TPs/images/Optionnal/8.png)
+![img](/TP_Basic/images/Optionnal/8.png)
 
 ## Partie 4: Ajout et Suppression d'Éléments Imbriqués
 
@@ -50,7 +50,7 @@ db.classes.updateOne(
 )
 ```
 
-![img](/TPs/images/Optionnal/alice_supp.png)
+![img](/TP_Basic/images/Optionnal/alice_supp.png)
 
 ## Partie 5: Pour aller plus loin avec les Agrégations
 

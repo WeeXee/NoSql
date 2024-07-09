@@ -12,7 +12,7 @@ Objectif : Importer les données du fichier titanic.csv dans une collection Pass
 Créez une base de données nommée TitanicDB.
 Importez les données de titanic.csv dans une collection nommée Passengers.
 
-![img](/TPs/images/Titanic/create.png)
+![img](/TP_Basic/images/Titanic/create.png)
 
 ## Exercice 2: Analyse des Données
 Objectif : Effectuer des opérations de lecture et d'analyse sur les données.
@@ -21,19 +21,19 @@ Objectif : Effectuer des opérations de lecture et d'analyse sur les données.
 
 * Comptez le nombre total de passagers.
 
-![img](/TPs/images/Titanic/Nb_passagers.png)
+![img](/TP_Basic/images/Titanic/Nb_passagers.png)
 
 * Trouvez combien de passagers ont survécu.
 
-![img](/TPs/images/Titanic/survived.png)
+![img](/TP_Basic/images/Titanic/survived.png)
 
 * Trouvez le nombre de passagers femmes.
 
-![img](/TPs/images/Titanic/female.png
+![img](/TP_Basic/images/Titanic/female.png
 )
 * Trouvez le nombre de passagers avec au moins 3 enfants.
 
-![img](/TPs/images/Titanic/enfants.png)
+![img](/TP_Basic/images/Titanic/enfants.png)
 
 ## Exercice 3: Mise à Jour de Données
 Objectif : Corriger ou ajouter des informations à certains documents.

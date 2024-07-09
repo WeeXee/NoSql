@@ -6,11 +6,11 @@ Cet exercice est conçu pour vous familiariser avec les commandes de base de mon
 Suivez les étapes ci-dessous en utilisant mongosh pour effectuer des opérations basiques sur MongoDB.
 
 ## Partie 1: Exploration des Bases de Données et Collections
-![img](/TPs/images/mongosh/1.png)
+![img](/TP_Basic/images/mongosh/1.png)
 
 ## Partie 2: Manipulation des Données
-![img](/TPs/images/mongosh/2.png)
+![img](/TP_Basic/images/mongosh/2.png)
 
 ## Partie 3: Nettoyage
 
-![img](/TPs/images/mongosh/3.png)
+![img](/TP_Basic/images/mongosh/3.png)
