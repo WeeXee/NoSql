@@ -1,13 +1,17 @@
 # NoSql
 ## Module NoSql MongoDB
 
-Ici vous trouverez tous les liens vers les exercices du module:
+### TP Basics
 
-[Exercice Pokémon](/TPs/Ex_Pokemon.md)
+[Exercice Pokémon](/TP_Basic/Ex_Pokemon.md)
 
-[Exercice Titanic](/TPs/Ex_Titanic.md)
+[Exercice Titanic](/TP_Basic/Ex_Titanic.md)
 
-[Exercice Mongosh](/TPs/Ex_Mongosh.md)
+[Exercice Mongosh](/TP_Basic/Ex_Mongosh.md)
 
-[Exercice Optionnels](/TPs/Ex_optionnal.md)
+[Exercice Optionnels](/TP_Basic/Ex_optionnal.md)
+
+### TP Aggregation
+
+[Exercice Avancé sur la Base de Données Pokémon GO](/TP_Aggregation/Ex_PokemongoAvance.md)
 
