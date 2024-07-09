@@ -34,8 +34,15 @@ J'ai donc installé python, puis pip, pour ensuite écrire des scripts pour les 
 
 ## Étape 3: Lecture de Données sur les Documents
 
-- Identifiez tous les Pokémons avec plus de 50 d'attaques.
-
 [Script python](/TP_Aggregation/Etape_3.py)
 
+- Identifiez tous les Pokémons avec plus de 50 d'attaques.
+
 ![img](/TP_Aggregation/images/5.png)
+
+- Sélectionnez les Pokémon avec un CP supérieur à la moyenne des CP.
+
+![img](/TP_Aggregation/images/6.png)
+
+### Étape 4: Agrégation des Statistiques par Type
+
