@@ -8,7 +8,7 @@ Cet exercice propose une série de tâches pour explorer les fonctionnalités av
 - Générez des statistiques aléatoires pour l'attaque et la défense (valeurs entre 1 et 100).
 - Mettez à jour chaque Pokémon avec ces nouvelles statistiques sous un objet stats.
 
-J'ai donc installé python, puis pip, pour ensuite écrire des scripts pour les exercices suivants.
+J'ai donc installé python, puis pip, pour ensuite écrire des scripts pour les exercices suivants
 
 [Script python](/TP_Aggregation/01_document_imbriqué_et_agrégation_basique/Etape_2.py)
 

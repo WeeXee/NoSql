@@ -13,5 +13,5 @@
 
 ### TP Aggregation
 
-[Exercice Avancé sur la Base de Données Pokémon GO](/TP_Aggregation/Ex_PokemongoAvance.md)
+[Exercice Avancé sur la Base de Données Pokémon GO](/TP_Aggregation/01_document_imbriqué_et_agrégation_basique/rendu.md)
 
