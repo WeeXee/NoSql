@@ -2,8 +2,8 @@ from pymongo import MongoClient
 
 # Connexion à la base de données
 client = MongoClient('mongodb+srv://paulinecabee:AqwPmn09!@nosqlmodule.gekwzev.mongodb.net/27017')
-db = client.sandwichDB
-commandes = db.commandes
+db = client.Data
+subway = db.Subway
 
 # Menu Principal
 def afficher_menu():
@@ -31,25 +31,40 @@ def nouvelle_commande():
     choix_sauce = int(input("Sauce : "))
     sauce_choisie = sauces_disponibles[choix_sauce-1]
 
-    commande = {
-        "ingredients": ingredients_choisis,
-        "sauce": sauce_choisie,
-        "montant": len(ingredients_choisis) * 2 + 1  # Prix arbitraire: 2 par ingrédient + 1 pour la sauce
+    email_client = input("Entrez l'email du client : ")
+    client_existant = subway.find_one({"email": email_client})
+
+    nouvelle_commande = {
+        "idCommande": f"C001",
+        "montant": len(ingredients_choisis) * 2 + 1,
+        "produits": ingredients_choisis + [sauce_choisie]
     }
 
-    commandes.insert_one(commande)
-    print("Commande enregistrée avec succès!")
+    if client_existant:
+        nouvelle_commande["idCommande"] = f"C{len(client_existant['commandes'])+1:03d}"
+        subway.update_one(
+            {"email": email_client},
+            {"$push": {"commandes": nouvelle_commande}}
+        )
+        print("Commande enregistrée avec succès pour le client existant!")
+    else:
+        nouveau_client = {
+            "nom": input("Entrez le nom du client : "),
+            "email": email_client,
+            "pays": input("Entrez le pays du client : "),
+            "commandes": [nouvelle_commande]
+        }
+        subway.insert_one(nouveau_client)
+        print("Client et commande enregistrés avec succès!")
 
 # Calcul du Chiffre d'Affaires
 def voir_chiffre_affaires():
-    total_chiffre_affaires = commandes.aggregate([
-        {
-            '$group': {
-                '_id': None,
-                'total': {'$sum': '$montant'}
-            }
-        }
-    ])
+    pipeline = [
+        {"$unwind": "$commandes"},
+        {"$group": {"_id": None, "total": {"$sum": "$commandes.montant"}}}
+    ]
+
+    total_chiffre_affaires = subway.aggregate(pipeline)
 
     for result in total_chiffre_affaires:
         print(f"Chiffre d'affaires total : {result['total']}")
