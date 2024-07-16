@@ -2,8 +2,8 @@ from pymongo import MongoClient
 
 # Connexion à la base de données et à la collection
 client = MongoClient('mongodb+srv://paulinecabee:AqwPmn09!@nosqlmodule.gekwzev.mongodb.net/27017')
-db = client.ventesDB
-collection = db.clients
+db = client.Data
+collection = db.Subway
 
 # Tâche 1: Total des Ventes par Client
 total_sales_by_client = collection.aggregate([
@@ -12,7 +12,7 @@ total_sales_by_client = collection.aggregate([
     },
     {
         '$group': {
-            '_id': '$nom_client',
+            '_id': '$nom',
             'total_ventes': {'$sum': '$commandes.montant'}
         }
     }
@@ -48,7 +48,7 @@ max_order_by_client = collection.aggregate([
     },
     {
         '$group': {
-            '_id': '$nom_client',
+            '_id': '$nom',
             'commande_maxi': {'$max': '$commandes.montant'}
         }
     }
@@ -70,8 +70,8 @@ top_products = collection.aggregate([
     },
     {
         '$group': {
-            '_id': '$commandes.produits.nom',
-            'quantite_totale': {'$sum': '$commandes.produits.quantite'}
+            '_id': '$commandes.produits',
+            'quantite_totale': {'$sum': 1}
         }
     },
     {
